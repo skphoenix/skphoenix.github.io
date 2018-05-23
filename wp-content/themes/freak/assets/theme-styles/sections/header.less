@@ -1,0 +1,136 @@
+/* ---------- Header ------------- */
+#top-bar {
+  background: fade(@sbg,70%);
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  right: 0;
+  border-bottom: solid 6px @sbg;
+  #searchicon {
+  }
+}
+#masthead {
+  text-align: center;
+  position: relative;
+  background-attachment: fixed;
+  @media screen and (max-width: 767px) {
+    background-attachment: scroll;
+  }
+  margin-bottom: 0px;
+  .layer {
+    width: 100%;
+    min-height: 600px;
+  }
+  #text-title-desc {
+    clear: none;
+    float: none;
+    @media screen and (max-width: 768px) {
+      float: none;
+    }
+    vertical-align: middle;
+  }
+
+  h1.site-title {
+    font-size: 76px;
+    @media screen and (max-width: 767px) {
+      font-size: 32px;
+    }
+    font-weight: 100;
+    margin-top: 0px;
+    a {
+      color: white;
+    }
+  }
+  h2.site-description {
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .top-search {
+    padding-bottom: 70px;
+    input[type=submit] {
+      display: none;
+    }
+    input[type=search] {
+      background: fade(black,30%);
+      border: solid 4px fade(black,35%);
+      padding: 5px 15px;
+      outline: none;
+      color: white;
+      font-weight: lighter;
+    }
+  }
+}
+.site-branding {
+  padding-top: 20vh;
+  overflow: hidden;
+  padding-bottom: 10px;
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
+}
+
+#site-logo {
+  display: inline-block;
+  float: none;
+  max-width: 100%;
+  @media screen and (max-width: 768px) {
+    float: none;
+  }
+}
+
+#masthead.header-medium {
+  h1.site-title {
+    font-size: 66px;
+  }
+  .site-branding {
+    padding-top: 90px;
+  }
+  .layer {
+    min-height: 350px;
+  }
+  .top-search {
+    padding-bottom: 120px;
+  }
+  @media screen and (max-width: 767px) {
+    .layer {
+      padding-bottom: 50px;
+    }
+  }
+}
+#masthead.header-medium.search-disabled {
+  .social-icons {
+    margin-bottom: 140px;
+  }
+  .site-branding {
+    padding-top: 80px;
+  }
+}
+#masthead.header-small {
+  h1.site-title {
+    font-size: 66px;
+  }
+  .site-branding {
+    padding-top: 10px;
+  }
+  .layer {
+    min-height: 250px;
+  }
+  .top-search {
+    padding-bottom: 70px;
+  }
+  .social-icons {
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 767px) {
+    .layer {
+      padding-bottom: 100px;
+    }
+  }
+}
+#masthead.header-large.search-disabled {
+  .layer {
+    min-height: 600px;
+  }
+}

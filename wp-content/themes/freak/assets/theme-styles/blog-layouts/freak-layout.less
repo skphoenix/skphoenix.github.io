@@ -1,0 +1,95 @@
+//freak layout
+#content {
+  margin-top: 30px;
+}
+
+.grid-row {
+  margin: 0;
+}
+.freak {
+  @media screen and (max-width: 991px) {
+    padding-right: 0px;
+  }
+  .featured-thumb {
+    border: none;
+    border-right: solid 4px @accent;
+    padding-right: 0;
+    .postedon {
+      position: absolute;
+      right: 0;
+      top: 15px;
+      text-align: right;
+      font-size: 10px;
+      .date {
+        background: @accent;
+        padding: 8px;
+        color: white;
+        display: inline-block;
+        clear: both;
+      }
+      .author {
+        background: fade(black,80%);
+        padding: 8px;
+        display: block;
+        clear: both;
+        a { color: white; }
+      }
+    }
+  }
+}
+.aldehyde {
+  .featured-thumb {
+    border-top: none;
+    img {
+      width: 100%;
+      .transform(rotate(0deg));
+      .transition(3s all ease);
+      @media screen and (min-width: 767px) {
+        &:hover {
+          .transition(3s all ease);
+          .transform(rotate(1deg));
+        }
+      }
+    }
+  }
+  .out-thumb {
+    padding: 15px 0px;
+    h3.entry-title {
+      font-size: 24px;
+      a { .transition(0.4s all ease); }
+      a:before {
+        content: none;
+      }
+      @media screen and (min-width: 767px) {
+        a:hover {
+          color: @accent;
+        }
+      }
+    }
+    .postedon a {
+      color: @content;
+      text-decoration: none;
+      font-size: 13px;
+      @media screen and (min-width: 767px){
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    }
+    .fa-calendar, .fa-user {
+      border: solid 1px @accent;
+      border-radius: 50%;
+      padding: 12px;
+      margin-right: 7px;
+      color: @accent;
+    }
+    .byline {
+      float: right;
+    }
+    .readmore {
+      margin-top: 5px;
+      text-transform: uppercase;
+      font-weight: lighter;
+    }
+  }
+}

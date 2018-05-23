@@ -1,0 +1,31 @@
+.social-icons {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.social-icons a {
+  background: none;
+  img {
+    width: 38px;
+    .transition(0.8s all ease);
+  }
+  color: darken(@content,10%);
+  .transition( ease 0.4s );
+  border-width: 1px;
+  font-size: 22px;
+  i {
+    font-size: 18px;
+  }
+  &:before {
+    border-radius: 0%;
+    border-width: 1px;
+    background: lighten(@sbg,20%);
+  }
+  @media screen and (max-width: 600px) {
+    float: none;
+  }
+  &:hover {
+    img {
+      .transform(rotate(360deg) scale(1.15));
+    }
+  }
+}

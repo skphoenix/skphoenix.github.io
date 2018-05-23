@@ -1,0 +1,955 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fitspiration v20.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-05-15 23:42+0300\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ fitspiration
+#: 404.php:9
+msgid "Article Not Found"
+msgstr "Страница не найдена"
+
+# @ fitspiration
+#: 404.php:12
+msgid "The article you were looking for was not found. You may want to check your link or perhaps that page does not exist anymore."
+msgstr "Страница, которую вы запросили, не существует или была перемещена."
+
+# @ fitspiration
+#: archive.php:19 index.php:149 search.php:19
+msgid "Older Entries"
+msgstr "Старые записи"
+
+# @ fitspiration
+#: comments.php:18
+msgid "<span>No</span> Comments"
+msgstr "<span>Нет</span> Комментариев"
+
+# @ fitspiration
+#: comments.php:18
+msgid "<span>1</span> Comment"
+msgstr "<span>1</span> Комментарий"
+
+# @ fitspiration
+#: comments.php:18
+msgid "<span>%</span> Comments"
+msgid_plural "<span>%</span> Comments"
+msgstr[0] "<span>%</span> Комментариев"
+msgstr[1] "<span>%</span> Комментариев"
+
+# @ fitspiration
+#: comments.php:38
+msgid "&larr; Previous Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+# @ fitspiration
+#: comments.php:39
+msgid "More Comments &rarr;"
+msgstr "Следующие комментарии &larr; "
+
+# @ fitspiration
+#: comments.php:44
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+# @ fitspiration
+#: footer.php:5
+msgid "Y"
+msgstr ""
+
+# @ fitspiration
+#: full-width.php:25 page.php:18 post-content/format-quote.php:14
+#: post-content/format.php:9 template-class.php:34
+msgid "Pages:"
+msgstr "Страницы:"
+
+# @ fitspiration
+#: full-width.php:49 page.php:42 single.php:107 template-class.php:54
+msgid "Oops, Post Not Found!"
+msgstr "Упс, Запись не найдена!"
+
+# @ fitspiration
+#: full-width.php:50 page.php:43 single.php:108 template-class.php:55
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "О, нет. Что-то отсутствует. Попробуйте перепроверить."
+
+# @ fitspiration
+#: home-content/home-audio.php:16 home-content/home-video.php:5
+#: home-content/home.php:17
+msgid "Read More &raquo;"
+msgstr "Подробнее &raquo;"
+
+# @ fitspiration
+#: home-content/home-audio.php:18 home-content/home-video.php:7
+#: home-content/home.php:20
+#, php-format
+msgid "<span class=\"fa fa-user\"></span> <span class=\"author\">%3$s</span> <span class=\"fa fa-clock-o\"></span> <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time>"
+msgstr ""
+
+# @ fitspiration
+#: home-content/home-audio.php:18 home-content/home-video.php:7
+#: home-content/home.php:20
+msgid "Y-m-j"
+msgstr ""
+
+# @ fitspiration
+#: index.php:88
+#, php-format
+msgid "Read %s"
+msgstr "Читать %s"
+
+# @ fitspiration
+#: index.php:90
+msgid "Read More"
+msgstr "Подробнее"
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+# @ fitspiration
+#. translators: %s: plugin name.
+#: library/class/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+# @ fitspiration
+#. translators: %s: plugin name.
+#: library/class/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+# @ fitspiration
+#. translators: 1: plugin name(s).
+#: library/class/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fitspiration
+#. translators: 1: plugin name(s).
+#: library/class/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fitspiration
+#. translators: 1: plugin name(s).
+#: library/class/class-tgm-plugin-activation.php:348
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fitspiration
+#. translators: 1: plugin name(s).
+#: library/class/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fitspiration
+#. translators: 1: plugin name(s).
+#: library/class/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fitspiration
+#. translators: 1: plugin name(s).
+#: library/class/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:386
+#: library/class/class-tgm-plugin-activation.php:827
+#: library/class/class-tgm-plugin-activation.php:2533
+#: library/class/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:387
+#: library/class/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+# @ fitspiration
+#. translators: 1: plugin name.
+#: library/class/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+# @ fitspiration
+#. translators: 1: plugin name.
+#: library/class/class-tgm-plugin-activation.php:392
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+# @ fitspiration
+#. translators: 1: dashboard link.
+#: library/class/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:934
+#: library/class/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:1121
+#: library/class/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+# @ fitspiration
+#. translators: %s: version number
+#: library/class/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+# @ fitspiration
+#. translators: 1: install status, 2: update status
+#: library/class/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+# @ fitspiration
+#. translators: 1: number of plugins.
+#: library/class/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fitspiration
+#. translators: 1: number of plugins.
+#: library/class/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fitspiration
+#. translators: 1: number of plugins.
+#: library/class/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fitspiration
+#. translators: 1: number of plugins.
+#: library/class/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+# @ fitspiration
+#. translators: %2$s: plugin name in screen reader markup
+#: library/class/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+# @ fitspiration
+#. translators: %2$s: plugin name in screen reader markup
+#: library/class/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+# @ fitspiration
+#. translators: %2$s: plugin name in screen reader markup
+#: library/class/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+# @ fitspiration
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: library/class/class-tgm-plugin-activation.php:2952
+#: library/class/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+# @ fitspiration
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: library/class/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ fitspiration
+#. translators: 1: plugin name, 2: error message.
+#: library/class/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+# @ fitspiration
+#. translators: 1: plugin name.
+#: library/class/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+# @ fitspiration
+#. translators: 1: plugin name.
+#: library/class/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:3509
+#: library/class/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:3509
+#: library/class/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+# @ fitspiration
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: library/class/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+# @ fitspiration
+#. translators: 1: plugin name.
+#: library/class/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+# @ fitspiration
+#: library/class/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+# @ fitspiration
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: library/class/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:16
+msgid "Theme Accent Color 1"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:27
+msgid "Theme Accent Colo 2"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:34
+msgid "Social Media Icons"
+msgstr "Значки соц. сетей"
+
+# @ fitspiration
+#: library/customizer/controls.php:36
+msgid "Optional media icons in the header"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:45
+msgid "Post Settings"
+msgstr "Настройки записи"
+
+# @ fitspiration
+#: library/customizer/controls.php:56
+msgid "Disable the Related Posts?"
+msgstr "Отключить схожие посты?"
+
+# @ fitspiration
+#: library/customizer/controls.php:67
+msgid "Disable the Author Information?"
+msgstr "Отключить информацию об авторе?"
+
+# @ fitspiration
+#: library/customizer/controls.php:73
+msgid "Enter your Facebook url"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:84
+msgid "Enter your Twitter url"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:95
+msgid "Enter your Google+ url"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:106
+msgid "Enter your Pinterest url"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:117
+msgid "Enter your Linkedin url"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:128
+msgid "Enter your Youtube url"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:139
+msgid "Enter your Tumblr url"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:150
+msgid "Enter your Instagram url"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:161
+msgid "Enter your Flickr url"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:172
+msgid "Enter your Vimeo url"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:183
+msgid "Enter your RSS url"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:194
+msgid "Enter your email address"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:203
+msgid "Slider Settings"
+msgstr "Настройка Слайдера"
+
+# @ fitspiration
+#: library/customizer/controls.php:205
+msgid "Adjust the behavior of the image slider."
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:214
+msgid "Disable home page slider?"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:220
+msgid "scrollHorz"
+msgstr ""
+
+# @ fitspiration
+#: library/customizer/controls.php:227
+msgid "Select Effect:"
+msgstr "Выбор эффекта:"
+
+# @ fitspiration
+#: library/customizer/controls.php:231
+msgid "Horizontal (Default)"
+msgstr "По горизонтали (по умолчанию)"
+
+# @ fitspiration
+#: library/customizer/controls.php:232
+msgid "Vertical"
+msgstr "Вертикально"
+
+# @ fitspiration
+#: library/customizer/controls.php:233
+msgid "Tile Slide"
+msgstr "Плитка Слайд"
+
+# @ fitspiration
+#: library/customizer/controls.php:234
+msgid "Blinds"
+msgstr "Заглушки"
+
+# @ fitspiration
+#: library/customizer/controls.php:235
+msgid "Shuffle"
+msgstr "Перетасовать"
+
+# @ fitspiration
+#: library/customizer/controls.php:258
+msgid "Select A Category:"
+msgstr "Выберите категорию:"
+
+# @ fitspiration
+#: library/customizer/controls.php:269
+msgid "Autoplay Speed in Seconds"
+msgstr "Скорость автопрокрутки в секундах"
+
+# @ fitspiration
+#: library/fitspiration.php:95
+msgid "The Main Menu"
+msgstr "Главное меню"
+
+# @ fitspiration
+#: library/fitspiration.php:130
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+# @ fitspiration
+#: library/fitspiration.php:164
+msgid "No Related Posts Yet!"
+msgstr "Пока нет связанных записей"
+
+# @ fitspiration
+#: library/fitspiration.php:179
+msgid "Read "
+msgstr "Читать"
+
+# @ fitspiration
+#: library/fitspiration.php:179
+msgid "Read more &raquo;"
+msgstr "Подробнее &raquo;"
+
+# @ fitspiration
+#: library/functions/custom-functions.php:172
+msgid "Facebook"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/custom-functions.php:173
+msgid "Twitter"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/custom-functions.php:174
+msgid "Google+"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/custom-functions.php:175
+msgid "Pinterest"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/custom-functions.php:176
+msgid "Linkedin"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/custom-functions.php:177
+msgid "Youtube"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/custom-functions.php:178
+msgid "Tumblr"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/custom-functions.php:179
+msgid "Instagram"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/custom-functions.php:180
+msgid "Flickr"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/custom-functions.php:181
+msgid "Vimeo"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/custom-functions.php:182
+msgid "RSS"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/custom-functions.php:232
+msgid "WP Gallery Custom Links"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/custom-functions.php:238
+msgid "Instagram Feed"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/functions.php:57
+msgid "Posts Sidebar"
+msgstr "Записи - Боковая колонка"
+
+# @ fitspiration
+#: library/functions/functions.php:58
+msgid "The Posts sidebar."
+msgstr ""
+
+# @ fitspiration
+#: library/functions/functions.php:67
+msgid "Page Sidebar"
+msgstr "Страницы Сайдбар"
+
+# @ fitspiration
+#: library/functions/functions.php:68
+msgid "The Page sidebar."
+msgstr ""
+
+# @ fitspiration
+#: library/functions/functions.php:77
+msgid "Homepage Sidebar"
+msgstr "Главная страница Боковая панель"
+
+# @ fitspiration
+#: library/functions/functions.php:78
+msgid "The Homepage sidebar."
+msgstr "Боковая панель главной страницы"
+
+# @ fitspiration
+#: library/functions/functions.php:103
+msgid "Your comment is awaiting moderation."
+msgstr "Спасибо! Ваш комментарий ожидает проверки."
+
+# @ fitspiration
+#: library/functions/functions.php:107
+#, php-format
+msgid "<cite class=\"fn\">%1$s</cite> %2$s"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/functions.php:107
+msgid "(Edit)"
+msgstr ""
+
+# @ fitspiration
+#: library/functions/functions.php:108
+msgid "F jS, Y"
+msgstr ""
+
+# @ fitspiration
+#: search.php:8
+msgid "Search Results for:"
+msgstr "Результаты поиска для:"
+
+# @ fitspiration
+#: sidebar-home.php:16 sidebar-page.php:16 sidebar.php:16
+msgid "This is a widget ready area. Add some and they will appear here."
+msgstr ""
+
+# @ fitspiration
+#: single.php:14
+msgid ", "
+msgstr ""
+
+# @ fitspiration
+#: single.php:27
+msgid "TAGS: "
+msgstr "МЕТКИ: "
+
+# @ fitspiration
+#: single.php:60
+msgid "You may also like "
+msgstr "Похожие записи"

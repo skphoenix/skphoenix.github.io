@@ -1,0 +1,75 @@
+.body-font {
+  font-family: "Roboto Slab", sans-serif;
+}
+.title-font {
+  font-family: "Bitter", sans-serif;
+}
+
+
+
+body {
+  .body-font;
+  background: @background;
+  word-wrap: break-word;
+}
+.mega-container {
+  background: white;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 20px;
+  overflow: auto;
+}
+.container {
+  max-width: 1100px;
+}
+a {
+  color: @accent;
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+    color: @accent;
+  }
+}
+.container {
+  margin: auto;
+}
+
+/* section titles */
+.section-title {
+  font-weight: normal;
+  color: #777;
+  font-size: 18px;
+  margin-bottom: 20px;
+  @media screen and (max-width: 991px) {
+    margin-top: 20px;
+  }
+  &:after {
+    content: "";
+    display: block;
+    width: 12%;
+    height: 2px;
+    margin-top: 5px;
+    background: @accent;
+  }
+}
+
+//logo
+.site-logo {
+  display: inline-block;
+  float: none;
+  margin-right: 30px;
+  max-width: 100px;
+  max-height: 100px;
+  @media screen and (max-width: 767px) {
+    float: none;
+    max-width: 40px;
+    max-height: 40px;
+    display: inline-block;
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    float: none;
+    max-width: 60px;
+    max-height: 60px;
+    display: inline-block;
+  }
+}

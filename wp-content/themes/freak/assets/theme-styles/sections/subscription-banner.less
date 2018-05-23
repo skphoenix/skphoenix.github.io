@@ -1,0 +1,44 @@
+//topbar
+#footer-bnr {
+  background-color: #F07261;
+  color: @background;
+  //border-bottom: medium none rgba(0, 0, 0, 0.2);
+  padding: 35px 0px;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  .bnr-tagline{
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0px 10px;
+    float: left;
+  }
+  .bnr-tagline,.bnr-action
+  {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 30px;
+  }
+  .bnr-action{
+    background: @sbg;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 24px;
+
+    border-radius: 5px;
+    a{
+      text-decoration: none;
+      display: block;
+      color: @content;
+      font-size: 20px;
+      padding: 12px 20px;
+    }
+    a:hover{
+      background: @background;
+      border-radius: 5px;
+
+    }
+
+  }
+
+}
